@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+.App {
+  padding: 20vh;
+  margin-left: 35vw;
+}
+.Netflix {
+  width: 10vh;
+  height: 50vh;
+  background-color: #b1060f;
+  position: relative;
+}
+
+.Netflix::before {
+  width: 10vh;
+  height: 50vh;
+  content: "";
+  position: absolute;
+  background-color: #e50913;
+  transform: skew(20deg);
+  left: 9.2vh;
+  box-shadow: 0 0 50vh 0.5vh black;
+}
+.Netflix::after {
+  width: 10vh;
+  height: 50vh;
+  content: "";
+  position: absolute;
+  background-color: #b1060f;
+  left: 18vh;
+  z-index: -1;
+}

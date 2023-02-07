@@ -1,0 +1,24 @@
+.div1{
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    transform: translate(5px, 10px);
+}
+.div2{
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    transform: rotate(20deg);
+}
+.div3{
+    height: 10rem;
+    width: 10rem;
+    background-color: blue;
+    transform: scale(1, 2);
+}
+.div4{
+    height: 10rem;
+    width: 10rem;
+    background-color: blueviolet;
+    transform: rotateZ(90deg);
+}

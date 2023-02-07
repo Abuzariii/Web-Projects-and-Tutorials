@@ -1,0 +1,93 @@
+/* The animation code */
+@keyframes firstAnimation {
+    from {
+        background-color: red;
+        height: 300px;
+    }
+
+    to {
+        background-color: yellow;
+        height: 100px;
+    }
+}
+
+/* The element to apply the animation to */
+div.anim {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    animation-name: firstAnimation;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes secondAnimation {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+/* The element to apply the animation to */
+.anim2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: secondAnimation;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes thirdAnimation {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/* The element to apply the animation to */
+.anim3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: greenyellow;
+    animation-name: thirdAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}

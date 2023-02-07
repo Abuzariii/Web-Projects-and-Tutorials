@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" />
+  <title>University website Design</title>
+</head>
+
+<body>
+  <section class="header">
+
+    <nav>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      <a href="index.html"><img src="images/Byte-Ed-1-removebg-preview.png" alt="website logo" /></a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-close" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html" id="home-link">Home</a></li>
+          <li><a href="about1.html" id="about-link">About</a></li>
+          <li><a href="courses.html" id="courses-link">Courses</a></li>
+          <li><a href="blog.html" id="blogs-link">Blogs</a></li>
+          <li><a href="contact.html" id="contact-link">Contact Us</a></li>
+        </ul>
+        <div class="extra">
+          <a href="https://twitter.com/bytewiseltd" target="_blank"><i class="fa-brands fa-twitter fa-2x color"></i></a>
+          <a href="https://www.linkedin.com/company/bytewiseltd/mycompany/" target="_blank"><i
+              class="fa-brands fa-linkedin fa-2x color"></i></i></a>
+          <a href="https://www.bytewiseltd.com/" target="_blank"><i
+              class="fa-solid fa-up-right-from-square fa-2x color"></i></a>
+        </div>
+      </div>
+
+    </nav>
+
+    <div class="text-box">
+      <h1>BYTEWISE 2.0.3</h1>
+      <p>
+        The world is transitioning towards high technology and skilled professionals are in demand, <br />
+        Join us today to be one of them.
+      </p>
+      <a href="" class="hero-btn">Visit us to known more</a>
+    </div>
+  </section>
+
+  <!-- course -->
+
+  <section class="course">
+    <!-- <h1>Courses We offer</h1>
+    <p>We offer premium courses in multiple categories.</p> -->
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+          nobis aliquam ipsam hic earum corporis et, exercitationem tenetur
+          expedita dolore!
+        </p>
+      </div>
+
+      <div class="course-col">
+        <h3>Bachelors</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+          nobis aliquam ipsam hic earum corporis et, exercitationem tenetur
+          expedita dolore!
+        </p>
+      </div>
+
+      <div class="course-col">
+        <h3>Masters</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+          nobis aliquam ipsam hic earum corporis et, exercitationem tenetur
+          expedita dolore!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- campus -->
+
+  <section class="campus">
+    <h1>Our Campuses</h1>
+    <p>We are scattered across the country.</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img
+          src="https://images.unsplash.com/photo-1590800752883-6446fe1d3da6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt="London image" />
+        <div class="layer">
+          <h3>ISLAMABAD</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img
+          src="https://images.unsplash.com/photo-1610697579277-70a34dd4f436?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt="Newyork image" />
+        <div class="layer">
+          <h3>KARACHI</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img
+          src="https://images.unsplash.com/photo-1628755614942-970eff827e16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
+          alt="Washington image" />
+        <div class="layer">
+          <h3>LAHORE</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facility -->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We provide state of the art facilities at all our campuses.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png" alt="" />
+        <h3>World CLass Library</h3>
+        <p>Libraries with with a huge collection of e-books as well..</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/basketball.png" alt="" />
+        <h3>Play Grounds and Gyms</h3>
+        <p>Sports complexes and gyms with all the equipments needed.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.png" alt="" />
+        <h3>Cafeteria</h3>
+        <p>Cafeterias with free services for employees..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- testtimonials -->
+  <section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Your feedback means a lot to us.</p>
+    <div class="row">
+      <div class="testimonials-col">
+        <img src="images/user1.jpg" alt="" />
+        <div>
+          <p>My favorite workplace environment ever..</p>
+          <h3>Christine Berkley</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+
+      <div class="testimonials-col">
+        <img src="images/user2.jpg" alt="" />
+        <div>
+          <p>Love the creative environment around. Refreshing and serene .</p>
+          <h3>David Byer</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="cta">
+    <h1>
+      Enroll For Our Various Online Courses <br />
+      Anywhere From The World
+    </h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <h4>Byte-Ed is a venture of &#169; Bytewise Limited, a development & community wing based in Islamabad. To know more
+      about
+      the services we offer, please visit our socials.</h4>
+    <div class="socials">
+
+      <a href="https://www.bytewiseltd.com/" target="_blank"><i
+          class="fa-solid fa-up-right-from-square fa-2x link-icon"></i></a>
+      <a href="https://twitter.com/bytewiseltd" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+
+      <a href="https://www.instagram.com/bytewiseltd/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.linkedin.com/company/bytewiseltd/mycompany/" target="_blank"><i
+          class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.left = "0";
+    }
+    function hideMenu() {
+      navLinks.style.left = "-12.5rem";
+    }
+    if (window.innerWidth > 900) {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        $(".header").css({
+          backgroundSize: (100 + scroll / 5) + "%",
+          top: -(scroll / 10) + "%",
+        });
+      });
+    } else if (window.innerWidth < 900) {
+      $(window).scroll(function () {
+        $(".header").css({
+          backgroundSize: "cover"
+        });
+      });
+    }
+  </script>
+</body>
+
+</html>

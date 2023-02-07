@@ -1,0 +1,16 @@
+*{
+  color: red;
+}
+
+.h1 > li{
+  margin: 50px;
+}
+/* #h1 li{
+  background-image: url("./pic.jpg");
+  width: 30vw;
+  color: red;
+} */
+
+p.intro{
+
+}

@@ -1,0 +1,28 @@
+h3{
+    /* margin-left: -250px; */
+}
+form{
+    /* background-image: linear-gradient(to right, rgb(153, 138, 138), rgb(68, 63, 63)); */
+    background-image: url("./Screenshot\ \(26\).png");
+    background-size: 160%;
+    background-position: 40%;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+button{
+    padding: 13px;
+    border-radius: 14px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(124, 124, 181);
+}
+a{
+    color: black;
+    text-decoration: none;
+}

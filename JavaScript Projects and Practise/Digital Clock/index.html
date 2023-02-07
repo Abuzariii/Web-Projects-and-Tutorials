@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lilita+One&family=M+PLUS+2:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="updateClock(); setInterval('updateClock()', 1000)">
+    <div class="container">
+        <h1><big id="header">Digital Clock: </big></h1>
+        <hr> <br>
+        <h1><big id="clock"></big></h1>
+        <h1><big id="calender"></big></h1>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

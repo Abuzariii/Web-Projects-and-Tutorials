@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(rgb(27, 4, 161), rgb(44, 7, 7), rgb(255, 0, 0));
+  height: 848px;
+}
+#clock {
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Lilita One", cursive;
+  font-family: "M PLUS 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+#calender {
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Lilita One", cursive;
+  font-family: "M PLUS 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.container {
+  position: absolute;
+  left: 580px;
+  top: 350px;
+}
+#header {
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Lilita One", cursive;
+  font-family: "M PLUS 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 40px;
+}

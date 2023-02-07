@@ -1,0 +1,27 @@
+body{
+  background: linear-gradient(rgb(0, 57, 148), rgba(19, 161, 0, 0.685), green);
+}
+.main{
+  /* background: linear-gradient(red, black, green); */
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  color: white;
+}
+.input{
+  margin-bottom: 10px;
+  height: 35px;
+}
+.input, .btn{
+  margin-left: 20px;
+  margin-top:10px ;
+}
+
+.description, .source, .url{
+  margin-bottom: 15px;
+}
+.temp{
+  font-family: "M PLUS 2", sans-serif;
+  color: white;
+  background: linear-gradient(red, black, green);
+}

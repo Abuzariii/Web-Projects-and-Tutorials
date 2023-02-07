@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+
+:root{
+    --font-poppins:'Poppins', sans-serif;
+}
+
+*>*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:var(--font-poppins);
+}
+
+body{
+    background-image: url(./images/adminbackground.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: relative;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.fa-solid{
+    position: relative;
+    z-index: 100;
+    margin: 1em;
+    color: #f44336;
+}
+.fa-solid:hover{
+    transform: scale(1.4,1.5);
+}
+.fa-solid:active{
+    opacity: 0.5;
+}
+
+.box{
+    position: relative;
+    background: whitesmoke;
+    width: 23.7rem;
+    height:27rem;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.form{
+    position: absolute;
+    inset: 1px;
+    border-radius: 0.75rem;
+    background: whitesmoke;
+    padding: 3.125em 2.5em ;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2{
+    color: #f44336;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;   
+}
+
+.form .admin-text{
+    font-weight: 600;
+    letter-spacing: none;
+    font-size: 3em;
+}
+
+.inputBox{
+ position: relative;
+ width: 300px;
+ margin-top: 2.015em;
+
+}
+
+.inputBox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+
+
+.inputBox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    color: black;
+}
+
+
+
+.links a{
+  margin: 10px 0;
+  font-size: 0.75em;
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+.links a:hover,
+.links a:nth-child(2){
+    color: #f44336;
+}
+
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: #f44336;
+    margin-top: 1.5em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    width: 100px;
+    color: whitesmoke;
+    font-weight: 600;
+    cursor: pointer
+}
+
+input[type="submit"]:active{
+    opacity: 0.8;
+}
+
+
+
+@media(max-width:398px){
+.box{
+    width: 20rem;
+    height:27rem;
+}
+
+.box:before{
+    width: 20rem;
+    height:27rem;
+}
+
+.box::after{
+    width: 20rem;
+    height:27rem;
+}
+
+.inputBox{
+    width: 245px;
+   }
+}
+
+@media(max-width:338px){
+
+    .box{
+        width: 15rem;
+        height:27rem;
+    }
+    
+    .box:before{
+        width: 15rem;
+        height:27rem;
+    }
+    
+    .box::after{
+        width: 15rem;
+        height:27rem;
+    }
+    
+    .inputBox{
+        width: 160px;
+       }
+
+       
+        .form .admin-text{
+            font-size: 2em;
+       }
+
+       
+       input[type="submit"]
+       {
+        padding: 8px 15px;
+       }
+}
